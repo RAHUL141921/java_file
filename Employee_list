@@ -1,8 +1,16 @@
+import java.util.*;
 class main{
     public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
         int a =1;
         int b= 4;
         int c= a+b;
         System.out.println(c);
+        if(c%2==0)
+        {
+            System.out.println(Odd number);
+        }
+        else {System.out.println(even number);}
+
     }
 }
